@@ -1,0 +1,120 @@
+/*
+Project Name: HTML Template
+Client: Your Client
+Author: Your Name
+Developer: @poopsplat in Chicago
+*/
+
+/******************************************
+/* SETUP
+/*******************************************/
+/* Box Model Hack: http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+/* Micro clearfix hack: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html { 
+  background: url('../images/bball.gif') no-repeat center center fixed; 
+   background-size: cover;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+body {
+  margin: 0;
+  background: #272A32; 
+  background: rgba(0,0,0,0.2);
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	color: #E6E6E6;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 900;
+	padding: 20px 0 0 40px;
+}
+
+.logo,
+.nav {
+	display: inline-block;
+}
+
+.nav a {
+	color: #E6E6E6;
+	font-size: 16px;
+	transition: all .15s ease-in-out;
+
+}
+
+.nav a:hover{
+	border-bottom: 2px solid #E6E6E6;
+	cursor: pointer;
+}
+
+.nav li {
+	display: inline-block;
+	margin-right: 20px;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+
+}
+
+.footer {
+	color: #448CE6;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
