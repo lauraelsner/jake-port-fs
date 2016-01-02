@@ -57,6 +57,12 @@ a {
 	padding: 20px 0 0 40px;
 }
 
+.logo a {
+	color: #E6E6E6;
+	transition: all .15s ease-in-out;
+}
+
+
 .logo,
 .nav {
 	display: inline-block;
@@ -89,6 +95,18 @@ a {
 }
 
 
+
+/****************TEST*******************/
+.image-grid {
+	margin: 40px auto;
+	max-width: 1400px;
+	text-align: center;
+}
+
+img {
+	height: 300px;
+	width: 300px;
+}
 
 
 
